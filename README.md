@@ -102,6 +102,7 @@ Run the installation script and follow on screen instructions.
     ./install.py or ./uninstall.py
     
 __System-wide:__  
+
     sudo su - 
     cd autojump
     ./install.py -s
