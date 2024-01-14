@@ -66,7 +66,7 @@ j() {
         else
                 echo -e "${output}"
         fi
-        cd "${output}"
+        pushd "${output}"
     else
         echo "autojump: directory '${@}' not found"
         echo "\n${output}\n"
